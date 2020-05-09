@@ -1,0 +1,24 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	int i,j;
+
+
+	Scanner scanner= new Scanner(System.in);
+
+
+	System.out.print("i=");
+	i= scanner.nextInt();
+	System.out.println("j=");
+	j=scanner.nextInt();
+	System.out.println("Suma wynosi" + (i+j));
+	
+
+
+
+    }
+}
